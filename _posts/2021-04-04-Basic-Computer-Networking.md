@@ -13,7 +13,6 @@ Basic operations we will use for subnetting.
 - [Decimal to Binary](https://o5m4n.github.io/Basic-Computer-Networking#decimal-to-binary)
 <br>  
 <br>  
-<br>  
 
 ### Binary to Decimal
 
@@ -48,6 +47,8 @@ we add the value of each result together to get **45**
 <br />   
 ### Decimal to Binary
 
+**Reference table**  
+
 | 2<sup>7</sup>| 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup>| 2<sup>0</sup> |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |  
@@ -68,7 +69,7 @@ we compare 78 to every value on table.
 0  >= 1   = NO
 </pre>
 
-we replace every yes by 1 on table  
+we replace every yes by 1 on reference table  
 
 | 2<sup>7</sup>| 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup>| 2<sup>0</sup> |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -76,3 +77,8 @@ we replace every yes by 1 on table
 | 0   | 1   | 0   | 0   | 1   | 1   | 1   | 0   |  
 
 **78 = 01001110**
+
+
+```bash
+>$ codigo bash 
+```

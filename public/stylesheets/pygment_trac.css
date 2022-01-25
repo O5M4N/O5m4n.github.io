@@ -20,8 +20,11 @@ pre {
   line-height: 1.4;
   white-space: pre;
   overflow: hidden;
-  background-color: #1D1D1F;
-  border-color: #1D1D1F;
+  /*background-color: #1D1D1F;*/
+  background-color: #1a1a1a;
+  /*border-color: #1D1D1F;*/
+  border-color: #1a1a1a;
+
 }
 
 pre:hover {
