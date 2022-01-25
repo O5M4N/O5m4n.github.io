@@ -79,6 +79,4 @@ we replace every yes by 1 on reference table
 **78 = 01001110**
 
 
-```bash
->$ codigo bash 
-```
+<br>
