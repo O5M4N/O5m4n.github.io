@@ -1,0 +1,43 @@
+I"n
+<h3 id="hellow-world">Hellow World!</h3>
+
+<p>“I’m a Systems Engineer, a apassionate full stack developer, GNU\LINUX lover and Cyeber-Security enthusiast..”</p>
+
+<p>I beliebe in plain, static html pages, as stable and simple way to distrubute my own thoughs and ideas.</p>
+
+<p><br />
+<br /></p>
+<h3 id="skills-and-tools">Skills and Tools</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Programming</td>
+      <td>C, C++, Java, C#, VB, PHP, Python, JS, Bash, Pascal, SQL, Prolog, LUA, ABAP, AJAX</td>
+    </tr>
+    <tr>
+      <td>Databases</td>
+      <td>Microsoft SQL Server (2005,2008), MariaDB, MySQL 5, SqlLite, SyBase, ACCESS, Oracle database 11g</td>
+    </tr>
+    <tr>
+      <td>Pentesting</td>
+      <td>Kali, Wireshark, Nessus, Burp, OSINT</td>
+    </tr>
+    <tr>
+      <td>Other</td>
+      <td>Git, HTML, CSS, GTK, JSF, JSON, XHTML,PrimeFaces,Apache Torque, UML 2.2, PSP</td>
+    </tr>
+  </tbody>
+</table>
+
+<div align="left">
+  <script align="center" src="https://www.hackthebox.eu/badge/450688"></script>
+</div>
+
+<p><br />
+<br /></p>
+<h3 id="Happy Hacking" align="center">  Happy Hacking! </h3>
+<p><br />
+<br />
+<br /></p>
+:ET

@@ -1,0 +1,22 @@
+<div id="footer">
+<hr/>
+  <div class="pull-left">
+    <a href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US">
+    <span>
+        <b>{{ site.owner}}</b>
+    </span>
+    {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
+    <span>© {{ currentyear }}</span>
+  </a>
+  </div>
+
+  <div class="pull-right">
+    <span class="credits pull-right social">
+      {% for sl in site.data.personal.social %}
+        {% unless sl[1] == '' %}
+          <a href="{{sl[1]}}" target="_blank"><i class="fa fa-{{sl[0]}}"></i></a>
+        {% endunless %}
+      {% endfor %}
+    </span>
+  </div>
+</div>

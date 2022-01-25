@@ -1,0 +1,43 @@
+# theme customizations
+
+# remove excerpt from blog page
+# make it look compact (shows only title and date)
+compact: false
+
+# show posts navs
+show_post_navs: true
+
+# show this info in post header
+show_post_commets_count: false
+show_post_tags: true
+
+# customize max-width of the main content
+# 700px, 900px etc
+width: "750px"
+
+# show or hide scroll-bar
+show-scroll: false
+
+# easily change background color
+# dark colors looks better with current font colors
+#bg: "#222A30"  #Original color
+bg: "#1a1a1a" #Old Color
+#bg: "#341154"
+#bg: "#260047"
+
+#sitname color 
+sitename-color: "#EC4E3B"   #EC4E3B
+
+#easily change Navigation menu properties 
+nav-color: "#49B1F7" ##49B1F7 old color 
+nav-size: "15px"
+sep-color: "#00FF24"
+line-color: "#49B1F7" #49B1F7 old color 
+
+#easily chage social icons properties
+#social-color: "#fff" #old color 
+social-color: "#fff"
+
+#text hover color config 
+link-hover-color: "#EC4E3B" #Original Color
+#link-hover-color: "#00FF12" 

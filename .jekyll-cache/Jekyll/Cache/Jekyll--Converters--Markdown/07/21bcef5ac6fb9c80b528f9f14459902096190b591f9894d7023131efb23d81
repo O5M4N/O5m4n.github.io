@@ -1,0 +1,191 @@
+I"x<p><br /></p>
+<h2 id="conversiones">Conversiones</h2>
+
+<ul>
+  <li><a href="https://o5m4n.github.io/Basic-Computer-Networking#convertir-de-binario-a-decimal">Convertir de Binario a Decimal</a></li>
+  <li><a href="https://o5m4n.github.io/Basic-Computer-Networking#convertir-de-decimal-a-binario">Convertir de Decimal a Binario</a>
+<br /><br />
+<br /><br />
+<br /></li>
+</ul>
+
+<h3 id="convertir-de-binario-a-decimal">Convertir de Binario a Decimal</h3>
+
+<p><strong>Tabla de Referencia</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>2<sup>7</sup></th>
+      <th>2<sup>6</sup></th>
+      <th>2<sup>5</sup></th>
+      <th>2<sup>4</sup></th>
+      <th>2<sup>3</sup></th>
+      <th>2<sup>2</sup></th>
+      <th>2<sup>1</sup></th>
+      <th>2<sup>0</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>128</td>
+      <td>64</td>
+      <td>32</td>
+      <td>16</td>
+      <td>8</td>
+      <td>4</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br />
+<strong>Ejemplo</strong><br />
+convertir 101101<br />
+colocamos cada 1 de derecha a izquierda</p>
+
+<div class="table-wrapper">
+
+  <table>
+    <thead>
+      <tr>
+        <th>2<sup>7</sup></th>
+        <th>2<sup>6</sup></th>
+        <th>2<sup>5</sup></th>
+        <th>2<sup>4</sup></th>
+        <th>2<sup>3</sup></th>
+        <th>2<sup>2</sup></th>
+        <th>2<sup>1</sup></th>
+        <th>2<sup>0</sup></th>
+        <th>Numero</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>128</td>
+        <td>64</td>
+        <td>32</td>
+        <td>16</td>
+        <td>8</td>
+        <td>4</td>
+        <td>2</td>
+        <td>1</td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td> </td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>BIN</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>32</td>
+        <td>0</td>
+        <td>8</td>
+        <td>4</td>
+        <td>0</td>
+        <td>1</td>
+        <td>45</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<p>Sumamos los valores y nos da 45</p>
+
+<p><br /></p>
+<h3 id="convertir-de-decimal-a-binario">Convertir de Decimal a Binario</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>2<sup>7</sup></th>
+      <th>2<sup>6</sup></th>
+      <th>2<sup>5</sup></th>
+      <th>2<sup>4</sup></th>
+      <th>2<sup>3</sup></th>
+      <th>2<sup>2</sup></th>
+      <th>2<sup>1</sup></th>
+      <th>2<sup>0</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>128</td>
+      <td>64</td>
+      <td>32</td>
+      <td>16</td>
+      <td>8</td>
+      <td>4</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br />
+<strong>Ejemplo</strong><br />
+convertir 78<br />
+comparamos el 78 con cada numero</p>
+
+<pre>
+78 &gt;= 128 = No 
+78 &gt;= 64  = SI -&gt; 78 - 64 = 14  
+14 &gt;= 32  = NO  
+14 &gt;= 16  = NO  
+14 &gt;= 8   = SI -&gt; 14 - 8  = 6
+6  &gt;= 4   = SI -&gt; 6  - 4  = 2
+2  &gt;= 2   = SI -&gt; 2  - 2  = 0
+0  &gt;= 1   = NO
+</pre>
+
+<p>REMPLAZAMOS LOS SI POR 1 en la tabla</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>2<sup>7</sup></th>
+      <th>2<sup>6</sup></th>
+      <th>2<sup>5</sup></th>
+      <th>2<sup>4</sup></th>
+      <th>2<sup>3</sup></th>
+      <th>2<sup>2</sup></th>
+      <th>2<sup>1</sup></th>
+      <th>2<sup>0</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>128</td>
+      <td>64</td>
+      <td>32</td>
+      <td>16</td>
+      <td>8</td>
+      <td>4</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>78 = 01001110</p>
+:ET

@@ -1,0 +1,12 @@
+# nav items in header
+items:
+  - text: '/Blog'
+    path: '/'
+  - text: '/Archive'
+    path: '/archive'
+  - text: '/Categories'
+    path: '/categories'
+  - text: '/Tags'
+    path: '/tags'
+  - text: '/About'
+    path: '/about'
