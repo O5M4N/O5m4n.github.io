@@ -1,7 +1,7 @@
 ---
 title: "CHEATSHEETS"
 layout: page
-tags: [Cheatsheets, RESOURCES]
+tags: [Cheatsheets, RESOURCES, Linux, SEO, HTML, CSS, JS, JQ]
 categories: [RESOURCES]
 ---
 

@@ -2,7 +2,8 @@ baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the r
 url: "https://o5m4n.github.io" # the base hostname & protocol for your site.
 
 paginate: 6 #articles per pag
-paginate_path: /page/:num/ #makes pagination working
+paginate_path: /page:num #makes pagination working
+
 
 # header text
 title: 05M4N
