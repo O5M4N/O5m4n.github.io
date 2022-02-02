@@ -8,7 +8,7 @@ permalink: "index.html"
     {% for post in site.posts  %}
     <div class="clearfix">
       <h3 class="pull-left">
-        <a href="{{ post.url | prepend:site.baseurl  | replace: '//', '/' }}">{{ post.title }}</a>
+        <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
       </h3>
       <span class="text-muted pull-right">{{ post.date | date_to_string }}</span>
     </div>
@@ -19,7 +19,7 @@ permalink: "index.html"
     {% for post in paginator.posts  %}
     <div>
       <h1>
-        <a href="{{ post.url | prepend:site.baseurl  | replace: '//', '/' }}">{{ post.title }}</a>
+        <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
       </h1>
       {% include post-header.html %}
     </div>

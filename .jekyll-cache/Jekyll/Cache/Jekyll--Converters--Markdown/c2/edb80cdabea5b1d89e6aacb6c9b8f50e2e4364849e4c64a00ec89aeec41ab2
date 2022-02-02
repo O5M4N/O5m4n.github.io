@@ -1,0 +1,51 @@
+I"/<p><br /></p>
+
+<h2 id="port-sacann">Port Sacann.</h2>
+<ul>
+  <li><a href="https://nmap.org">Nmap</a></li>
+</ul>
+
+<h2 id="networks-reconnaissance">Networks Reconnaissance.</h2>
+<ul>
+  <li><a href="https://github.com/bettercap/bettercap">Bettercap</a></li>
+</ul>
+
+<h2 id="web-discovery">Web Discovery.</h2>
+<ul>
+  <li><a href="https://tools.kali.org/web-applications/dirb">Dirb</a></li>
+  <li><a href="https://github.com/maurosoria/dirsearch">Dirsearch</a></li>
+  <li><a href="https://github.com/OJ/gobuster">Gobuster</a></li>
+</ul>
+
+<h2 id="fingerprinting">Fingerprinting.</h2>
+<ul>
+  <li><a href="https://builtwith.com/">Builtwith</a></li>
+</ul>
+
+<h2 id="sql-injection">SQL injection.</h2>
+<ul>
+  <li><a href="https://sqlmap.org/">SqlMap</a></li>
+</ul>
+
+<h2 id="passwordhash-crackers">Password/Hash cracker’s.</h2>
+<ul>
+  <li><a href="https://www.openwall.com/john/">John the Ripper</a></li>
+  <li><a href="https://hashcat.net/hashcat/">Hashcat</a></li>
+</ul>
+
+<h2 id="malware-analisys">Malware Analisys.</h2>
+<ul>
+  <li><a href="https://detectionlab.network/introduction/prerequisites/">DetectionLab</a></li>
+</ul>
+
+<h2 id="geolocation">Geolocation.</h2>
+<ul>
+  <li>Twitter
+    <ul>
+      <li><a href="https://github.com/shawn-terryah/Twitter_Geolocation">Twitter Geolocation</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /></p>
+:ET
