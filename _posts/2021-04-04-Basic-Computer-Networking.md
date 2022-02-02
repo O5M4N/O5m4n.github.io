@@ -1,10 +1,10 @@
 ---
-title: "Basics for Computer-Networking"
+title: "Basics for Computer-Networking "
 layout: page
 categories: [Computer-Networking]
 tags: [Computer-networking, Binary Decimal]
 ---
-<br>
+
 In this post I will try to explain the
 Basic operations we will use for subnetting.
 
