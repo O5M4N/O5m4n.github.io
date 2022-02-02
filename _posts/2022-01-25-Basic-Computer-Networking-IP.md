@@ -2,7 +2,7 @@
 title: "Basics for Computer Networking - IP Address"
 layout: page
 categories: [Computer-Networking]
-tags: [Computer-networking, Binary Decimal]
+tags: [Computer-networking, Binary Decimal, IP, Classes of Networks]
 ---
 
 ## What is an IP?  
@@ -94,7 +94,7 @@ Each calss determines
 ## IP is subdivided into three types  
 
 <br>  
-### NETWORK ADDRESS
+### Network Address
 - The Network address identifies the specific network to which host is attached.
 - It is the prefix that all equipment must have (Routers, Switches, etc ).
 
@@ -103,7 +103,7 @@ Each calss determines
    | 10101100 | 00010000 | 00000010 | 00000000 |NETWORK ADDRESS
    |NETWORK| NETWORK | HOST | HOST |NETWORK ADDRESS |
 
-### Direccion de HOST  
+### Host Address  
 
 - Host address uniquely identifies a host within a network.
 - It is the suffix that varies and is assigned to host
@@ -114,7 +114,7 @@ Each calss determines
 | 10101100 | 00010000 | 00010010 | 00000001 | HOST ADDRESS |
 | NETWORK | NETWORK | HOST | HOST | HOST ADDRESS |
 
-### Direccion de BROADCAST
+### Broadcast Address
 
 - Used by ARP to query all network members
 
@@ -123,7 +123,7 @@ Each calss determines
 | 10101100 | 00010000 | 11111111 | 11111111 | BROADCAST ADDRESS|
 | NETWORK | NETWORK | HOST | HOST | BROADCAST ADDRESS |  
 
-### Subnet mask
+### Subnet Mask
  
  **Note:**
 + subnet mask is the one that determines the network class.  
